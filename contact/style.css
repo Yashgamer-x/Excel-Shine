@@ -22,7 +22,7 @@ body {
 
 /* 3. Push footer to the end */
 footer {
-  background-color: #0e6fa8;
+  background-color: #b6b3b3;
   margin-top: auto;
 }
 
@@ -50,6 +50,7 @@ footer {
 textarea {
   display: block;
   width: 100%;
+  max-width: 720px;
   box-sizing: border-box;
 }
 
@@ -142,4 +143,10 @@ a.contact-link:hover {
 .input-box:focus {
   border-color: #353535;
   outline: none;
+}
+
+.map-container {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 720px;
 }
