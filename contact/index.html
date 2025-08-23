@@ -12,32 +12,33 @@
 	<link rel="stylesheet" href="/Site/css/fonts.css" />
 	<link rel="stylesheet" href="/Site/css/colors.css" />
 	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
 </head>
 
 <body>
 	<header>
-		<div class="logo">
-			<a href="http://excelshine.com/"><img src="http://excelshine.com/Site/images/logo.png"
+		<div class="header">
+			<a href="http://excelshine.com/"><img src="http://excelshine.com/Site/icon/favicon1.ico"
 					alt="Excel Shine Logo" /></a>
+		
+			<nav>
+				<ul class="nav-menu font-roboto-sans font-size-18 ">
+					<li><a href="http://excelshine.com/" class="noncurrent">Home</a></li>
+					<li><a href="http://excelshine.com/about.html" class="noncurrent">About Us</a></li>
+					<li><a href="http://excelshine.com/quality" class="noncurrent">Quality</a></li>
+					<li><a href="http://excelshine.com/infrastructure" class="noncurrent">Infrastructure</a></li>
+					<li><a href="http://excelshine.com/portfolio.html" class="noncurrent">Our Products</a ></li>
+					<li><a href="http://excelshine.com/contact.html" class="current">Contact</a></li>
+				</ul>
+			</nav>
 		</div>
-		<nav>
-			<ul>
-				<li><a href="http://excelshine.com/">Home</a></li>
-				<li><a href="http://excelshine.com/about.html">About Us</a></li>
-				<li><a href="http://excelshine.com/services.html">Services</a></li>
-				<li><a href="http://excelshine.com/portfolio.html">Portfolio</a></li>
-				<li><a href="http://excelshine.com/blog.html">Blog</a></li>
-				<li><a href="http://excelshine.com/contact.html" class="active">Contact</a></li>
-			</ul>
-		</nav>
 	</header>
 
 	<main>
 
-		<div class="contact-wrapper">
+		<div class="contact-wrapper font-roboto-sans">
 			<div class="
 			width-fit-content
-			font-open-sans
 			contact-info
 			">
 				<!-- Contact Infomation -->
@@ -123,26 +124,32 @@
 				font-size-14
 				light-grey
 				">
-					<label for="name">Name:</label><br />
-					<input type="text" id="name" placeholder="Name *" name="name" required /><br /><br />
-
-					<label for="email">Email:</label><br />
-					<input type="email" id="email" placeholder="Email *" name="_replyto" required /><br /><br />
-
-					<label for="telephone">Telephone:</label><br />
-					<input type="tel" pattern="/^\+[1-9]\d{0,2}-\d{4,14}$/" id="telephone" placeholder="Telephone" name="_callto" title="Use +<country code>-<digits> (e.g. +91-12345678)" required /><br /><br />
-					
-					<div class="message-box">
-						<label for="message">Message:</label><br />
-						<textarea id="message" placeholder="Message *" name="message" rows="9" required></textarea><br /><br />
+					<!-- Input Name -->
+					<div class="input-wrapper">
+						<input type="text" class="input-box name-box"  id="name" placeholder="Name *" name="name" required />
+						<span class="material-symbols-outlined input-icon">person</span>
 					</div>
+					<br /><br />
+					
+					<!-- Input Email -->
+					<div class="input-wrapper">
+						<input type="email" class="input-box" id="email" placeholder="Email *" name="_replyto" required />
+						<span class="material-symbols-outlined input-icon">mail</span>
+					</div>
+					<br /><br />
+					
+					<!-- Pattern: +<country code>-<digits> (e.g. +91-12345678) -->
+					<div class="input-wrapper">
+						<input type="tel" class="input-box" pattern="/^\+[1-9]\d{0,2}-\d{4,14}$/" id="telephone" placeholder="Telephone" name="_callto" title="Use +<country code>-<digits> (e.g. +91-12345678)" required />
+						<span class="material-symbols-outlined input-icon">call</span>
+					</div>
+					<br /><br />
+					<!-- Input Message -->
+					<textarea id="message" class="input-box" placeholder="Message *" name="message" rows="9" required></textarea><br /><br />
 
 					<button type="submit" class="
-					button
-					button-primary
-					font-size-14
-					text-upper-case
-					">Send</button>
+					send-button
+					">Send Message</button>
 				</form>
 			</div>
 		</div>
