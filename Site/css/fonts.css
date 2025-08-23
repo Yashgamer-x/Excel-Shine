@@ -1,0 +1,62 @@
+/* Font Types */
+
+.font-open-sans {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Font Sizes */
+
+.font-size-12{
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-19 {
+    font-size: 19px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-22 {
+    font-size: 22px;
+}
+
+.font-size-24 {
+    font-size: 24px;
+}
+
+
+/* Font Weight */
+.font-weight-lighter {
+    font-weight: lighter;
+}
+
+.font-weight-300 {
+    font-weight: 300;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}

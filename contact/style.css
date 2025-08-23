@@ -1,0 +1,9 @@
+a.contact-link {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a.contact-link:hover {
+  color: #ff7e06;
+  text-decoration: underline;
+}

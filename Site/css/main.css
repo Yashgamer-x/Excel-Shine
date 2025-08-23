@@ -1,0 +1,21 @@
+
+.width-fit-content {
+    width: fit-content;
+}
+
+
+.margin-20px {
+    margin: 20px;
+}
+
+.padding-10px {
+    padding: 0 10px;
+}
+
+.border-right-5px {
+    border-right: 5px solid #333333;
+}
+
+.text-upper-case {
+    text-transform: uppercase;
+}
