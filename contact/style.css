@@ -7,10 +7,31 @@
   justify-content: flex-end; /* align items to the right */
 }
 
+/* 1. Let html/body fill the viewport */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* 2. Make body a column flex container */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 3. Push footer to the end */
+footer {
+  background-color: #0e6fa8;
+  margin-top: auto;
+}
+
+
 .header{
   display: flex;             /* use flexbox for layout */
   align-items: center; 
   justify-content: space-between;
+  padding: 10px;
 }
 
 
