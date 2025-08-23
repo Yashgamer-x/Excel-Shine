@@ -7,3 +7,20 @@ a.contact-link:hover {
   color: #ff7e06;
   text-decoration: underline;
 }
+
+.contact-wrapper {
+  display: flex;
+  align-items: flex-start; /* keeps both tops aligned */
+  gap: 20px;                /* replaces your margin-20px on each child */
+}
+
+.contact-info {
+  flex: 0 0 auto;            /* fits to its own content */
+  padding: 10px;
+}
+
+.contact-form {
+  flex: 1;                    /* take all remaining space */
+  border-left: 5px solid #ccc;
+  padding: 10px;
+}

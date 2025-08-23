@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Excel Shine Pvt. Ltd. | Contact</title>
-    <link rel="icon" href="http://excelshine.com/Site/icon/favicon1.ico" type="image/x-icon" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Excel Shine Pvt. Ltd. | Contact</title>
+	<link rel="icon" href="http://excelshine.com/Site/icon/favicon1.ico" type="image/x-icon" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="/Site/css/main.css" />
 	<link rel="stylesheet" href="/Site/css/fonts.css" />
 	<link rel="stylesheet" href="/Site/css/colors.css" />
 	<link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 	<header>
 		<div class="logo">
-			<a href="http://excelshine.com/"><img src="http://excelshine.com/Site/images/logo.png" alt="Excel Shine Logo" /></a>
+			<a href="http://excelshine.com/"><img src="http://excelshine.com/Site/images/logo.png"
+					alt="Excel Shine Logo" /></a>
 		</div>
 		<nav>
 			<ul>
@@ -29,77 +33,118 @@
 	</header>
 
 	<main>
-		<div class="
-		width-fit-content
-		margin-20px
-		border-right-5px
-		padding-10px
-		font-open-sans
-		">
-			<!-- Contact Infomation -->
-			<p class="
-			font-size-22
-			dark-grey
-			">
-			Contact information
-		</p>
 
-			<!-- Company Name -->
-			<p class="
-			font-size-18 
-			text-upper-case
-			dark-grey
+		<div class="contact-wrapper">
+			<div class="
+			width-fit-content
+			font-open-sans
+			contact-info
 			">
-				Excel Shine pvt. ltd.
-			</p>
+				<!-- Contact Infomation -->
+				<p class="
+				font-size-22
+				dark-grey
+				">
+					Contact information
+				</p>
 
-			<!-- Owner -->
-			<p class="
-			font-size-14
-			light-grey
-			">
-				Mr. S. J. Desai
-			</p>
+				<!-- Company Name -->
+				<p class="
+				font-size-18 
+				text-upper-case
+				dark-grey
+				">
+					Excel Shine pvt. ltd.
+				</p>
 
-			<!-- Address -->
-			<p class="
-			font-size-14
-			font-weight-500
-			">
-				Address:
-			</p>
-			<address class="
-			font-size-14
-			light-grey
-			">
-				Excel Estate, Vashier, Valsad, Gujarat, India &#45; 396001
-			</address>
-			<!-- Phone -->
-			<p class="
-				font-size-14
-				font-weight-500
-			">
-				Phone numbers:
-			</p>
-			<p class="
+				<!-- Owner -->
+				<p class="
 				font-size-14
 				light-grey
-			">
-				<a class="contact-link light-grey" href="tel:+91-2632-226661">+91-2632-226661</a>, 
-				<a class="contact-link light-grey" href="tel:+91-9825176754">+91-9825176754</a>
-			</p>
+				">
+					Mr. S. J. Desai
+				</p>
 
-			<!-- Email -->
-			<p class="
+				<!-- Address -->
+				<p class="
 				font-size-14
 				font-weight-500
-			">Email:</p>
-			<p class="
+				">
+					Address:
+				</p>
+				<address class="
 				font-size-14
+				light-grey
+				">
+					Excel Estate, Vashier, Valsad, <br> Gujarat, India &#45; 396001
+				</address>
+				<!-- Phone -->
+				<p class="
+				font-size-14
+				font-weight-500
+				">
+					Phone numbers:
+				</p>
+				<p class="
+				font-size-14
+				light-grey
+				">
+					<a class="contact-link light-grey" href="tel:+91-2632-226661">+91-2632-226661</a>,<br>
+					<a class="contact-link light-grey" href="tel:+91-9825176754">+91-9825176754</a>
+				</p>
+
+				<!-- Email -->
+				<p class="
+				font-size-14
+				font-weight-500
+				">
+					Email:
+				</p>
+				<p class="
+				font-size-14
+				light-grey
+				">
+					<a class="contact-link light-grey" href="mailto:excelshine@hotmail.com">excelshine@hotmail.com</a>
+				</p>
+
+			</div>
+			<div class="
+			contact-form
+			font-open-sans
 			">
-				<a class="contact-link light-grey" href="mailto:excelshine@hotmail.com">excelshine@hotmail.com</a>
-			</p>
-			
+				<!-- Contact Form -->
+				<p class="
+				font-size-22
+				dark-grey
+				">
+					Send us a message
+				</p>
+				<form action="https://formspree.io/f/mgeprjdo" method="POST" class="
+				font-size-14
+				light-grey
+				">
+					<label for="name">Name:</label><br />
+					<input type="text" id="name" placeholder="Name *" name="name" required /><br /><br />
+
+					<label for="email">Email:</label><br />
+					<input type="email" id="email" placeholder="Email *" name="_replyto" required /><br /><br />
+
+					<label for="telephone">Telephone:</label><br />
+					<input type="tel" pattern="/^\+[1-9]\d{0,2}-\d{4,14}$/" id="telephone" placeholder="Telephone" name="_callto" title="Use +<country code>-<digits> (e.g. +91-12345678)" required /><br /><br />
+					
+					<div class="message-box">
+						<label for="message">Message:</label><br />
+						<textarea id="message" placeholder="Message *" name="message" rows="9" required></textarea><br /><br />
+					</div>
+
+					<button type="submit" class="
+					button
+					button-primary
+					font-size-14
+					text-upper-case
+					">Send</button>
+				</form>
+			</div>
 		</div>
 	</main>
 
@@ -108,4 +153,5 @@
 		<p>&copy; Copyright 2012. Excel Shine Pvt. Ltd.</p>
 	</footer>
 </body>
+
 </html>
