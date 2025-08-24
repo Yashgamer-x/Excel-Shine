@@ -18,9 +18,14 @@
 <body>
 	<header>
 		<div class="header">
-			<a href="http://excelshine.com/"><img src="http://excelshine.com/Site/icon/favicon1.ico"
-					alt="Excel Shine Logo" /></a>
-		
+			<a href="http://excelshine.com/">
+				<img src="http://excelshine.com/Site/icon/favicon1.ico" alt="Excel Shine Logo" />
+			</a>
+			<!-- Hidden checkbox toggle -->
+			<input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox" />
+			<label for="menu-toggle" class="menu-toggle-label">☰ Menu</label>
+			<!-- Navigation Menu -->
+			<!-- Added space-between to header to separate logo and nav menu -->
 			<nav>
 				<ul class="nav-menu font-roboto-sans font-size-18 ">
 					<li><a href="http://excelshine.com/" class="noncurrent">Home</a></li>
@@ -34,7 +39,7 @@
 		</div>
 	</header>
 
-	<main>
+	<main class="main-content">
 
 		<div class="contact-wrapper font-roboto-sans">
 			<div class="
@@ -119,7 +124,7 @@
 				">
 					Send us a message
 				</p>
-				<form action="https://formspree.io/f/mgeprjdo" method="POST" class="
+				<form action="" method="POST" class="
 				font-size-14
 				light-grey
 				">
@@ -139,7 +144,7 @@
 					
 					<!-- Pattern: +<country code>-<digits> (e.g. +91-12345678) -->
 					<div class="input-wrapper">
-						<input type="tel" class="input-box" pattern="/^\+[1-9]\d{0,2}-\d{4,14}$/" id="telephone" placeholder="Telephone" name="_callto" title="Use +<country code>-<digits> (e.g. +91-12345678)" required />
+						<input type="tel" class="input-box" pattern="^\+[1-9]\d{0,2}-\d{4,14}$" id="telephone" placeholder="Telephone *" name="_callto" title="Use +<country code>-<digits> (e.g. +91-12345678)" required />
 						<span class="material-symbols-outlined input-icon">call</span>
 					</div>
 					<br /><br />
@@ -161,6 +166,7 @@
 	<footer>
 		<p class="dark-grey padding-10px">&copy; Copyright 2012. Excel Shine Pvt. Ltd.</p>
 	</footer>
+	<script src="menu-toggle.js"></script>
 </body>
 
 </html>
