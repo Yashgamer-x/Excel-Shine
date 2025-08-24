@@ -95,6 +95,7 @@ a.contact-link:hover {
   align-items: flex-start; /* keeps both tops aligned */
   gap: 20px;                /* replaces your margin-20px on each child */
   height: 100%;
+  width: 100%;
 }
 
 .contact-info {
@@ -223,9 +224,9 @@ a.contact-link:hover {
 
   .nav-menu {
     position: absolute;
-    top: 50px;
+    top: 55px;
     left: 50%;
-    transform: translateX(-40%);
+    transform: translateX(40%);
     display: none;
     flex-direction: column;
     background-color: white;
