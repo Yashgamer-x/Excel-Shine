@@ -194,12 +194,14 @@ a.contact-link:hover {
 @media (max-width: 620px) {
   .contact-wrapper {
     flex-direction: column;
+    width: 100%;
   }
   .contact-form {
     border-left: none;
     width: calc(100% - 20px); /* full width minus gap */
     border-top: 5px solid #ccc;
     padding: 10px 0 0 0;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0); /* subtle left-side shadow */
     margin: auto;
   }
 
